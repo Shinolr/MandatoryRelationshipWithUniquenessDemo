@@ -19,7 +19,7 @@ final class Department {
   var id: Int
   var name: String
 
-  @Relationship(inverse: \Employee.department)
+  // @Relationship(inverse: \Employee.department)
   var employees: [Employee]?
   var info: Info?
 
